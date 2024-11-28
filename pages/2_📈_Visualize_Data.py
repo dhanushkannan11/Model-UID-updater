@@ -5,8 +5,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 service_name = "dynamodb"
-region = "eu-central-1"
-table_name = "NeuraBubbleUID_Validator"
+region = os.getenv('AWS_REGION')
+table_name = os.getenv('AWS_TABLE_NAME')
 access_id = os.getenv('AWS_ACCESS_ID')
 access_key = os.getenv('AWS_ACCESS_KEY')
 

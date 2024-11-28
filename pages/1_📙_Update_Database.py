@@ -6,8 +6,8 @@ import boto3
 import time 
 
 service_name = "dynamodb"
-region = "eu-central-1"
-table_name = "NeuraBubbleUID_Validator"
+region = os.getenv('AWS_REGION')
+table_name = os.getenv('AWS_TABLE_NAME')
 client = None
 access_id = os.getenv('AWS_ACCESS_ID')
 access_key = os.getenv('AWS_ACCESS_KEY')
