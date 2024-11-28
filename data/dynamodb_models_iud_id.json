@@ -1,0 +1,127 @@
+[
+    {
+        "UID": "UID",
+        "destinationShipped": "",
+        "ID": {
+            "S": "29W1CV"
+        },
+        "raptured": false,
+        "shippedStatus": true,
+        "usageCount": 0,
+        "usages": {
+            "timestamps": [],
+            "systemIDs": [],
+            "userEmailIDs": [],
+            "locations": []
+        }
+    },
+    {
+        "UID": "destinationShipped",
+        "destinationShipped": "",
+        "ID": {
+            "S": ""
+        },
+        "raptured": false,
+        "shippedStatus": true,
+        "usageCount": 0,
+        "usages": {
+            "timestamps": [],
+            "systemIDs": [],
+            "userEmailIDs": [],
+            "locations": []
+        }
+    },
+    {
+        "UID": "ID",
+        "destinationShipped": "",
+        "ID": {
+            "S": "MCA R T04 001"
+        },
+        "raptured": false,
+        "shippedStatus": true,
+        "usageCount": 0,
+        "usages": {
+            "timestamps": [],
+            "systemIDs": [],
+            "userEmailIDs": [],
+            "locations": []
+        }
+    },
+    {
+        "UID": "raptured",
+        "destinationShipped": "",
+        "ID": {
+            "BOOL": false
+        },
+        "raptured": false,
+        "shippedStatus": true,
+        "usageCount": 0,
+        "usages": {
+            "timestamps": [],
+            "systemIDs": [],
+            "userEmailIDs": [],
+            "locations": []
+        }
+    },
+    {
+        "UID": "shippedStatus",
+        "destinationShipped": "",
+        "ID": {
+            "BOOL": false
+        },
+        "raptured": false,
+        "shippedStatus": true,
+        "usageCount": 0,
+        "usages": {
+            "timestamps": [],
+            "systemIDs": [],
+            "userEmailIDs": [],
+            "locations": []
+        }
+    },
+    {
+        "UID": "usageCount",
+        "destinationShipped": "",
+        "ID": {
+            "N": "0"
+        },
+        "raptured": false,
+        "shippedStatus": true,
+        "usageCount": 0,
+        "usages": {
+            "timestamps": [],
+            "systemIDs": [],
+            "userEmailIDs": [],
+            "locations": []
+        }
+    },
+    {
+        "UID": "usages",
+        "destinationShipped": "",
+        "ID": {
+            "M": {
+                "timestamps": {
+                    "L": []
+                },
+                "systemIDs": {
+                    "L": []
+                },
+                "userEmailIDs": {
+                    "L": []
+                },
+                "locations": {
+                    "L": []
+                }
+            }
+        },
+        "raptured": false,
+        "shippedStatus": true,
+        "usageCount": 0,
+        "usages": {
+            "timestamps": [],
+            "systemIDs": [],
+            "userEmailIDs": [],
+            "locations": []
+        }
+    }
+]
