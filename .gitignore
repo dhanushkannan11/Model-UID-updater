@@ -1,3 +1,4 @@
 generateUID.py
 data/token.pkl
 .env
+streamlit-env
