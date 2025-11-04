@@ -7,8 +7,8 @@ import string
 import random
 import time
 import os
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 service_name = "dynamodb"
 region = os.getenv('AWS_REGION')
