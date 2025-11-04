@@ -4,8 +4,8 @@ from packages.main import *
 from botocore.exceptions import NoCredentialsError, PartialCredentialsError
 import boto3
 import time 
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 service_name = "dynamodb"
 region = os.getenv('AWS_REGION')

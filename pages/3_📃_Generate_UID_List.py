@@ -1,24 +1,3 @@
-# import streamlit as st
-# import pandas as pd
-# from packages.main import *
-# from botocore.exceptions import NoCredentialsError, PartialCredentialsError
-# import boto3
-# import time 
-# from dotenv import load_dotenv
-# load_dotenv()
-
-# service_name = "dynamodb"
-# region = os.getenv('AWS_REGION')
-# table_name = os.getenv('AWS_TABLE_NAME')
-# client = None
-# access_id = os.getenv('AWS_ACCESS_ID')
-# access_key = os.getenv('AWS_ACCESS_KEY')
-
-# st.sidebar.page_link('Generate_UID.py', label='🆔 Generate UID')
-# st.sidebar.page_link('pages/1_📙_Update_Database.py', label='📙 Update Database')
-# st.sidebar.page_link('pages/2_📈_Visualize_Data.py', label='📈 Visualize Data')
-# st.sidebar.page_link('pages/3_📃_Generate_UID_List.py', label='📃 Generate UID List')
-
 import streamlit as st
 import pandas as pd
 from packages.main import *
@@ -28,10 +7,10 @@ import string
 import random
 import time
 import os
-from dotenv import load_dotenv
 from io import BytesIO
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
 service_name = "dynamodb"
 region = os.getenv('AWS_REGION')
